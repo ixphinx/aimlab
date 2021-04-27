@@ -14,6 +14,8 @@ const Data = new Schema({
     pastsustituto: String,
     cicloid: String,
     cicloarchivo: String,
+    semanaarchivo: String,
+    pasteurizadoraarchivo: String,
 
 
 });
