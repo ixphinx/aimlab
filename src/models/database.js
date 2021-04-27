@@ -12,7 +12,8 @@ const Data = new Schema({
     pastleche: String,
     pastbrix: String,
     pastsustituto: String,
-    cicloid: String, 
+    cicloid: String,
+    cicloarchivo: String,
 
 
 });
