@@ -15,6 +15,7 @@ const Data = new Schema({
     taskname: String,
     taskid: String,
     taskscore: String,
+    taskmod: String,
     
 
 
