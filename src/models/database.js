@@ -3,19 +3,19 @@ const {Schema} = mongoose;
 
 const Data = new Schema({
     
-    //Datos
-    semanas: String,
-    lecherec: String,
-    brix: String,
-    terneras: String,
-    pasteurizadoras: String,
-    pastleche: String,
-    pastbrix: String,
-    pastsustituto: String,
-    cicloid: String,
-    cicloarchivo: String,
-    semanaarchivo: String,
-    pasteurizadoraarchivo: String,
+    //User Data
+    user: String,
+    password: String,
+    userid: String,
+    username: String,
+    userlastname: String,
+    usermail: String,
+    
+    //Task Data
+    taskname: String,
+    taskid: String,
+    taskscore: String,
+    
 
 
 });
